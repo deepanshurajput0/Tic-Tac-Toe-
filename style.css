@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;800;900&family=Outfit:wght@100;200;500;600;900&family=Poppins:wght@300;400;500&family=Raleway:wght@600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.row{
+    border: 2px solid white;
+    height: 150px;
+    width: 150px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    height: 150px;
+    width: 150px;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
